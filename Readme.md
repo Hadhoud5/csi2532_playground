@@ -5,7 +5,7 @@
 | Cours | CSI2532 |
 | Date | Hiver 2022 |
 | Professor | Dorra Riahi |
-| TA | Haifa Besrour, hbesr077@uottawa.ca |
+| TA | Laith Grira, lgrir057@uottawa.ca |
 | Team | Hedi Ben Abid 300123192 |
 
 
