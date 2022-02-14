@@ -21,10 +21,10 @@ Une base de données universitaire contient des informations sur les professeurs
 (identifié par courseid). Les professeurs donnent des cours; chacun de
 les situations suivantes concernent l'ensemble de relation `teaches`.
 
-#### Diagramme ER
+#### Diagrammes
 
-Pour chaque situation voici un diagramme ER qui le décrit
-(en supposant qu'aucune autre contrainte).
+Pour chaque situation voici un diagramme ER
+(en supposant qu'il n'y ait aucune autre contrainte).
 
 1) Les professeurs peuvent enseigner le même cours sur plusieurs semestres et seule la plus récente doit être enregistrée.
 
@@ -78,7 +78,7 @@ Avec les diagrammes ER ci-dessus, modèlez un diagramme relationnel pour les sys
 
 #### Schèma de relation
 
-Avec les diagrammes relationnel ci-dessus, écrivez un schéma SQL relationnel pour les systèmes.
+Avec les diagrammes relationnel ci-dessus, voici un schéma SQL relationnel pour les systèmes.
 
 1) 
 ```sql
