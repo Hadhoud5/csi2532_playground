@@ -25,3 +25,4 @@ VALUES
   ('HIS-351', 'World History', 'History', 3),
   ('MU-199', 'Music Video Production', 'Music', 3),
   ('PHY-101', 'Physical Principles', 'Physics', 4);
+  
