@@ -14,7 +14,7 @@
 
 # Synopsis 
 Ceci est mon repo, il aura pour but de partager les differents labs du semestre d'hiver pour le cours CSI 2532
-avec la proffesseur Mme.Riahi et avec la TA Haifa Besrour.
+avec la proffesseur Mme.Riahi et avec le TA Laith Grira 
 
 # Environnement
 
