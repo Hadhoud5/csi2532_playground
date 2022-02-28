@@ -9,7 +9,9 @@
 | Team | Hedi Ben Abid 300123192 |
 
 
+## lab005
 
+Ajout des migrations, ainsi que la mise a jour de schema.sql
 
 
 ## lab004
