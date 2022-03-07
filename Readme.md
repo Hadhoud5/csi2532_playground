@@ -9,7 +9,51 @@
 | Team | Hedi Ben Abid 300123192 |
 
 
+## lab006
 
+SELECT name, dateofbirth FROM artists;
+![1](https://user-images.githubusercontent.com/55165009/157118926-cbc9e1b6-9162-4fa2-abe2-c2b678d0fada.png)
+
+
+SELECT title, price FROM artworks WHERE year > 1600;
+![2](https://user-images.githubusercontent.com/55165009/157118936-c9fcb4a3-ec50-47a8-8904-bad424686195.png)
+
+
+SELECT title, type FROM artworks WHERE year = 2000 OR artist_name = 'Picasso';
+![3](https://user-images.githubusercontent.com/55165009/157118953-9e5b964b-9d81-4eb2-9d93-e07376da10ae.png)
+
+
+SELECT name, birthplace FROM artists 
+WHERE EXTRACT(YEAR FROM dateofbirth) > 1880 
+and EXTRACT(YEAR FROM dateofbirth) < 1930 ;
+![4](https://user-images.githubusercontent.com/55165009/157118968-40263978-361f-4bd3-b226-4d864ddd5e0e.png)
+
+
+SELECT name, country FROM artists 
+WHERE style in ('Modern', 'Baroque', 'Renaissance');
+![5](https://user-images.githubusercontent.com/55165009/157118974-4132e5b8-a45f-497d-9dd7-0fdfd591b569.png)
+
+
+SELECT * FROM artworks ORDER BY title;
+![6](https://user-images.githubusercontent.com/55165009/157118991-9bb4e095-dfa3-404a-92ae-da7c6e00cdf7.png)
+
+
+SELECT name, id
+FROM customers
+JOIN likeartists ON customers.ID = likeartists.customer_id
+where artist_name = 'Picasso';
+![7](https://user-images.githubusercontent.com/55165009/157119007-8acf382e-b8f9-4c0d-9ce5-5f6d5c1ce158.png)
+
+
+SELECT name
+FROM customers
+JOIN likeartists ON customers.ID = likeartists.customer_id
+WHERE artist_name in (
+  SELECT name 
+  FROM artists JOIN artworks on artists.name = artworks.artist_name
+  WHERE style = 'Renaissance' AND price > 30000
+);
+![8](https://user-images.githubusercontent.com/55165009/157119022-2626c963-678f-4d61-aa62-99f2a1499fa2.png)
 
 
 ## lab004
