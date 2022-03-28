@@ -8,6 +8,11 @@
 | TA | Laith Grira (lgrir057@uottawa.ca) |
 | Team | Hedi Ben Abid 300123192 |
 
+## lab009
+
+Les exercices 1 a 4, ont étés traités dans le fichier lab09.sql
+
+
 
 ## lab006
 
